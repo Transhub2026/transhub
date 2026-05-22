@@ -95,14 +95,14 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-950/70 to-slate-950" />
         </div>
 
-        <div className="relative max-w-6xl mx-auto px-4 py-12 md:py-16 grid gap-10 md:grid-cols-[1.2fr_0.8fr] items-center">
+        <div className="relative max-w-6xl mx-auto px-4 py-8 md:py-16 grid gap-6 md:gap-10 md:grid-cols-[1.2fr_0.8fr] items-center">
           <div>
             <div className="inline-flex items-center gap-2 rounded-full border border-slate-800 bg-slate-900/60 px-3 py-1 text-xs text-slate-300">
               <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
               Комплексный сервис 24/7
             </div>
 
-            <h1 className="mt-4 text-3xl md:text-4xl font-semibold leading-tight">
+            <h1 className="mt-4 text-2xl sm:text-3xl md:text-4xl font-semibold leading-tight">
               Комплексный сервис грузовых и легковых автомобилей
             </h1>
 
@@ -112,17 +112,17 @@ export default function HomePage() {
               всё на одной территории.
             </p>
 
-            <div className="mt-6 flex flex-wrap gap-3">
+            <div className="mt-6 flex flex-col sm:flex-row gap-3">
               <Link
                 href="/contacts"
-                className="inline-flex items-center rounded-full bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-slate-950 hover:bg-emerald-400 transition shadow-sm"
+                className="inline-flex w-full sm:w-auto justify-center items-center rounded-full bg-emerald-500 px-5 py-3 sm:py-2.5 text-sm font-semibold text-slate-950 hover:bg-emerald-400 transition shadow-sm"
               >
                 Записаться на сервис
               </Link>
 
               <Link
                 href="/services"
-                className="inline-flex items-center rounded-full border border-slate-600 bg-slate-900/25 px-5 py-2.5 text-sm text-slate-50 hover:border-amber-400 transition"
+                className="inline-flex w-full sm:w-auto justify-center items-center rounded-full border border-slate-600 bg-slate-900/25 px-5 py-3 sm:py-2.5 text-sm text-slate-50 hover:border-amber-400 transition"
               >
                 Услуги
               </Link>
@@ -145,7 +145,7 @@ export default function HomePage() {
       previewVideoRef.current.currentTime = 0;
     }
   }}
-  className="group relative overflow-hidden rounded-3xl border border-slate-800 shadow-lg bg-slate-900"
+  className="group relative h-64 sm:h-80 md:h-[420px] overflow-hidden rounded-3xl border border-slate-800 shadow-lg bg-slate-900"
 >
   <video
     ref={previewVideoRef}
