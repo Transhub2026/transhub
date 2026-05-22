@@ -17,10 +17,10 @@ function phoneToTel(phone: string) {
 export default function ContactsPage() {
   // Яндекс карта (координаты: 59.529554, 30.076431)
   const yandexMapSrc =
-  "https://yandex.ru/map-widget/v1/?ll=30.076431%2C59.529554&z=16&pt=30.076431,59.529554,pm2rdm";
+  "https://yandex.ru/map-widget/v1/?ll=30.084031%2C59.525182&z=16&pt=30.084031,59.525182,pm2rdm";
 
   const routeLink =
-  "https://yandex.ru/maps/?ll=30.076431,59.529554&mode=routes&rtext=~59.529554,30.076431&rtt=auto&z=16";
+  "https://yandex.ru/maps/?ll=30.084031,59.525182&mode=routes&rtext=~59.525182,30.084031&rtt=auto&z=16";
 
 
   const whatsappLink = `https://wa.me/${CONTACTS.mainPhoneDigits}`;
