@@ -65,10 +65,19 @@ export default function SiteHeader() {
           </button>
         </div>
 
-        {/* Адрес на телефоне */}
-        <div className="mt-2 text-xs text-neutral-300 lg:hidden">
-          Большие Колпаны д, Киевское шоссе 53 км, д. 2, корп. 1
-        </div>
+        {/* Адрес и телефон на телефоне */}
+<div className="mt-2 space-y-1 text-xs text-neutral-300 lg:hidden">
+  <div>
+    Большие Колпаны д, Киевское шоссе 53 км, д. 2, корп. 1
+  </div>
+
+  <a
+    href="tel:+79313223333"
+    className="block text-sm font-semibold text-neutral-50"
+  >
+    +7 (931) 322-33-33
+  </a>
+</div>
 
         {/* Выпадающее меню на телефоне */}
         {isOpen && (
