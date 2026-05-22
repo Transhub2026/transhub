@@ -87,73 +87,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-50">
-      {/* Верхняя строка: новогодний фон за телефонами + логотип + адрес + карточки */}
-      <header className="relative sticky top-0 z-40 border-b border-slate-800 overflow-hidden">
-        {/* Новогодний фон */}
-        <div className="absolute inset-0">
-          <Image
-            src="/images/decor/newyear-header.jpg"
-            alt="Новогоднее оформление"
-            fill
-            className="object-cover opacity-35"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/90 via-slate-950/80 to-slate-950" />
-        </div>
-
-        {/* Контент шапки */}
-        <div className="relative bg-slate-950/60 backdrop-blur">
-          <div className="max-w-6xl mx-auto px-4 py-3 grid gap-3 md:grid-cols-[240px_1fr] items-center">
-            {/* Лого */}
-            <div className="flex items-center gap-3">
-              <div className="relative h-18 w-64">
-                <Image src="/logo-transhub.svg" alt="ТрансХаб" fill className="object-contain" priority />
-              </div>
-            </div>
-
-            {/* Контакты в шапке */}
-            <div className="grid gap-2">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                <div className="text-xs text-slate-200">
-                  <div className="font-medium text-slate-50">{CONTACTS.address}</div>
-                  <div className="text-slate-300">
-                    Телефон:{" "}
-                    <a className="text-slate-50 font-semibold" href={phoneToTel(CONTACTS.mainPhone)}>
-                      {CONTACTS.mainPhone}
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex flex-wrap gap-2">
-                  <a
-                    href={routeLink}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center rounded-full bg-emerald-500 px-4 py-2 text-xs font-semibold text-slate-950 hover:bg-emerald-400 transition shadow-sm"
-                  >
-                    Построить маршрут
-                  </a>
-
-                  {/* Если у вас есть общий header в layout — можно убрать эту кнопку и оставить там */}
-                  <Link
-                    href="/contacts"
-                    className="inline-flex items-center rounded-full border border-slate-500 bg-slate-900/40 px-4 py-2 text-xs text-slate-50 hover:border-amber-400 transition"
-                  >
-                    Контакты
-                  </Link>
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
-                <TopContactCard title={CONTACTS.truck.title} phone={CONTACTS.truck.phone} email={CONTACTS.truck.email} />
-                <TopContactCard title={CONTACTS.car.title} phone={CONTACTS.car.phone} email={CONTACTS.car.email} />
-                <TopContactCard title={CONTACTS.wash.title} phone={CONTACTS.wash.phone} email={CONTACTS.wash.email} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
+     
       {/* HERO */}
       <section className="relative border-b border-slate-900">
         <div className="absolute inset-0">
