@@ -96,42 +96,57 @@ export default function HomePage() {
         </div>
 
         <div className="relative max-w-6xl mx-auto px-4 py-8 md:py-16 grid gap-6 md:gap-10 md:grid-cols-[1.2fr_0.8fr] items-center">
-          <div>
-            <div className="inline-flex items-center gap-2 rounded-full border border-slate-800 bg-slate-900/60 px-3 py-1 text-xs text-slate-300">
-              <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
-              Комплексный сервис 24/7
-            </div>
+        <div className="relative overflow-hidden rounded-3xl border border-slate-800 min-h-[360px] md:min-h-[430px] bg-slate-900">
+  {/* Фоновое изображение */}
+  <Image
+    src="/images/hero/hero-service.png"
+    alt="Сервис грузовых автомобилей"
+    fill
+    priority
+    className="object-cover opacity-45"
+  />
 
-            <h1 className="mt-4 text-2xl sm:text-3xl md:text-4xl font-semibold leading-tight">
-              Комплексный сервис грузовых и легковых автомобилей
-            </h1>
+  {/* Мягкое затемнение */}
+  <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-950/55 to-slate-950/25" />
 
-            <p className="mt-4 text-sm md:text-base text-slate-300 max-w-xl">
-              «ТрансХаб» — современный автосервис в Ленинградской области.
-              Грузовое и легковое СТО, грузовая мойка, склад запчастей, мотель и стоянка —
-              всё на одной территории.
-            </p>
+  {/* Контент */}
+  <div className="relative z-10 flex min-h-[360px] md:min-h-[430px] flex-col justify-center p-6 md:p-9">
+    <div className="inline-flex w-fit items-center gap-2 rounded-full border border-slate-700 bg-slate-900/70 px-3 py-1 text-xs text-slate-200 backdrop-blur">
+      <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
+      Комплексный сервис 24/7
+    </div>
 
-            <div className="mt-6 flex flex-col sm:flex-row gap-3">
-              <Link
-                href="/contacts"
-                className="inline-flex w-full sm:w-auto justify-center items-center rounded-full bg-emerald-500 px-5 py-3 sm:py-2.5 text-sm font-semibold text-slate-950 hover:bg-emerald-400 transition shadow-sm"
-              >
-                Записаться на сервис
-              </Link>
+    <h1 className="mt-5 max-w-2xl text-2xl sm:text-3xl md:text-4xl font-semibold leading-tight text-white">
+      Комплексный сервис грузовых и легковых автомобилей
+    </h1>
 
-              <Link
-                href="/services"
-                className="inline-flex w-full sm:w-auto justify-center items-center rounded-full border border-slate-600 bg-slate-900/25 px-5 py-3 sm:py-2.5 text-sm text-slate-50 hover:border-amber-400 transition"
-              >
-                Услуги
-              </Link>
-            </div>
+    <p className="mt-4 max-w-xl text-sm md:text-base leading-relaxed text-slate-200">
+      «ТрансХаб» — современный автосервис в Ленинградской области.
+      Грузовое и легковое СТО, грузовая мойка, склад запчастей,
+      мотель и стоянка — всё на одной территории.
+    </p>
 
-            <div className="mt-4 text-xs text-slate-400">
-              Адрес: {CONTACTS.address}. Работаем круглосуточно.
-            </div>
-          </div>
+    <div className="mt-6 flex flex-col sm:flex-row gap-3">
+      <Link
+        href="/contacts"
+        className="inline-flex w-full sm:w-auto justify-center items-center rounded-full bg-emerald-500 px-5 py-3 sm:py-2.5 text-sm font-semibold text-slate-950 hover:bg-emerald-400 transition shadow-lg"
+      >
+        Записаться на сервис
+      </Link>
+
+      <Link
+        href="/services"
+        className="inline-flex w-full sm:w-auto justify-center items-center rounded-full border border-slate-500 bg-slate-900/40 px-5 py-3 sm:py-2.5 text-sm text-white hover:border-amber-400 transition backdrop-blur"
+      >
+        Услуги
+      </Link>
+    </div>
+
+    <div className="mt-5 text-xs text-slate-300">
+      Адрес: Большие Колпаны д, Киевское шоссе 53 км, д. 2, корп. 1.
+    </div>
+  </div>
+</div>
 
           {/* Мини-карточки справа */}
    {/* Видео вместо новогодней картинки */}
