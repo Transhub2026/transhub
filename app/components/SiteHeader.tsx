@@ -8,9 +8,11 @@ const navItems = [
   { href: "/", label: "Главная" },
   { href: "/services", label: "Услуги" },
   { href: "/company", label: "О компании" },
+  { href: "/promotions", label: "Акции" },
   { href: "/blog", label: "Новости" },
   { href: "/contacts", label: "Контакты" },
 ];
+
 
 export default function SiteHeader() {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +49,7 @@ export default function SiteHeader() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="rounded-full border border-slate-500 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-50 hover:border-amber-400 hover:text-amber-300 transition"
+                className="whitespace-nowrap rounded-full border border-slate-500 bg-slate-900 px-3 py-2 text-sm font-medium text-slate-50 hover:border-amber-400 hover:text-amber-300 transition"
               >
                 {item.label}
               </Link>

@@ -1,0 +1,460 @@
+[00:00:02.136] Server  LOG      ✓ Ready in 1546ms
+[00:00:12.340] Server  LOG      ○ Compiling / ...
+[00:00:13.453] Server  ERROR    ⨯ ./app/components/SiteHeader.tsx:15:1
+Parsing ecmascript source code failed
+  13 |   { href: "/contacts", label: "Контакты" },
+  14 | ];
+> 15 | ];
+     | ^
+  16 |
+  17 | export default function SiteHeader() {
+  18 |   const [isOpen, setIsOpen] = useState(false);
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/SiteHeader.tsx
+    ./app/layout.tsx
+
+
+[00:00:15.826] Server  ERROR    ⨯ ./app/components/SiteHeader.tsx:15:1
+Parsing ecmascript source code failed
+  13 |   { href: "/contacts", label: "Контакты" },
+  14 | ];
+> 15 | ];
+     | ^
+  16 |
+  17 | export default function SiteHeader() {
+  18 |   const [isOpen, setIsOpen] = useState(false);
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/SiteHeader.tsx
+    ./app/layout.tsx
+
+
+[00:00:16.284] Browser ERROR   uncaughtError: Error: ./app/components/SiteHeader.tsx:15:1
+Parsing ecmascript source code failed
+  13 |   { href: "/contacts", label: "Контакты" },
+  14 | ];
+> 15 | ];
+     | ^
+  16 |
+  17 | export default function SiteHeader() {
+  18 |   const [isOpen, setIsOpen] = useState(false);
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/SiteHeader.tsx
+    ./app/layout.tsx
+
+
+[00:00:16.564] Browser ERROR   ./app/components/SiteHeader.tsx:15:1
+Parsing ecmascript source code failed
+  13 |   { href: "/contacts", label: "Контакты" },
+  14 | ];
+> 15 | ];
+     | ^
+  16 |
+  17 | export default function SiteHeader() {
+  18 |   const [isOpen, setIsOpen] = useState(false);
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/SiteHeader.tsx
+    ./app/layout.tsx
+[00:00:16.564] Browser ERROR   ./app/components/SiteHeader.tsx:15:1
+Parsing ecmascript source code failed
+  13 |   { href: "/contacts", label: "Контакты" },
+  14 | ];
+> 15 | ];
+     | ^
+  16 |
+  17 | export default function SiteHeader() {
+  18 |   const [isOpen, setIsOpen] = useState(false);
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/SiteHeader.tsx
+    ./app/layout.tsx
+[00:00:17.202] Browser ERROR   ./app/components/SiteHeader.tsx:15:1
+Parsing ecmascript source code failed
+  13 |   { href: "/contacts", label: "Контакты" },
+  14 | ];
+> 15 | ];
+     | ^
+  16 |
+  17 | export default function SiteHeader() {
+  18 |   const [isOpen, setIsOpen] = useState(false);
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/SiteHeader.tsx
+    ./app/layout.tsx
+[00:01:12.898] Server  LOG      ✓ Compiled in 393ms
+[00:01:16.296] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:16.675] Browser WARN    Image with src "/images/hero/hero-service.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:16.926] Browser WARN    Image with src "/images/services/service-truck.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:17.385] Browser WARN    Image with src "/images/services/service-car.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:17.633] Browser WARN    Image with src "/images/services/service-wash.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:17.633] Browser WARN    Image with src "/images/services/service-parts.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:17.633] Browser WARN    Image with src "/images/services/service-extra.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:17.633] Browser WARN    Image with src "/images/services/service-motel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:18.014] Server  LOG      ○ Compiling /_not-found/page ...
+[00:01:19.274] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/hero/hero.jpg" "received" null
+[00:01:41.570] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/promotions/cleaning.jpg" "received" null
+[00:01:41.660] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/promotions/diagnostic.jpg" "received" null
+[00:04:58.701] Server  LOG      ✓ Compiled in 129ms
+[00:05:00.561] Browser ERROR   uncaughtError: Error: Invalid src prop (C:/Users/admin/projects/transhub/public/images/promotions/diagnostic.jpg) on `next/image`, hostname "" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:05:07.763] Server  ERROR   C:\Users\admin\projects\transhub\.next\dev\server\chunks\ssr\node_modules_2daf5c03._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:07.776] Server  ERROR    ⨯ Error: Invalid src prop (C:/Users/admin/projects/transhub/public/images/promotions/diagnostic.jpg) on `next/image`, hostname "" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:05:08.339] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:08.550] Browser ERROR   uncaughtError: Error: Invalid src prop (C:/Users/admin/projects/transhub/public/images/promotions/diagnostic.jpg) on `next/image`, hostname "" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+[00:06:03.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:05.755] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/promotions/cleaning.jpg" "received" null
+[00:06:05.772] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/images/promotions/diagnostic.jpg" "received" null
+[00:06:10.117] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:10.339] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/promotions/cleaning.jpg" "received" null
+[00:06:10.348] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/images/promotions/diagnostic.jpg" "received" null
+[00:08:20.445] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.452] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.457] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.465] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.471] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.479] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.489] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.493] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.542] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.545] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.548] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.552] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.557] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.560] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.564] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.569] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.572] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.574] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:20.592] Server  LOG      ✓ Compiled in 1275ms
+[00:08:21.134] Browser ERROR   ./app/layout.tsx:4:1
+Module not found: Can't resolve '../components/SiteHeader'
+  2 | import type { Metadata } from "next";
+  3 | import "./globals.css";
+> 4 | import SiteHeader from "../components/SiteHeader";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export const metadata: Metadata = {
+  7 |   title: "ТрансХаб — сервис грузовых и легковых авто",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:47.392] Server  LOG      ✓ Compiled in 1009ms
+[00:08:49.526] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:49.918] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/images/promotions/diagnostic.jpg" "received" null
+[00:08:49.922] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/promotions/cleaning.jpg" "received" null
+[00:11:11.590] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:04.308] Server  LOG      ✓ Compiled in 306ms
+[00:15:05.724] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/images/promotions/diagnostic.png" "received" null
+[00:15:07.134] Browser WARN    Image with src "/images/promotions/cleaning.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:40.413] Server  LOG      ✓ Compiled in 587ms
+[00:17:54.265] Browser WARN    Image with src "/images/promotions/cleaning.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:17:57.527] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:57.527] Browser WARN    Image with src "/images/promotions/cleaning.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:57.545] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/images/promotions/diagnostic.png" "received" null
+[00:19:18.135] Browser WARN    Image with src "/images/promotions/diagnostic.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:29.049] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:29.311] Browser WARN    Image with src "/images/promotions/cleaning.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:29.311] Browser WARN    Image with src "/images/promotions/diagnostic.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:51.845] Server  LOG      ✓ Compiled in 161ms
+[00:27:58.459] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:00.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:07.775] Browser WARN    Image with src "/images/hero/hero-service.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:07.878] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/hero/hero.jpg" "received" null
+[00:36:08.090] Browser WARN    Image with src "/images/services/service-truck.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:08.091] Browser WARN    Image with src "/images/services/service-car.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:08.091] Browser WARN    Image with src "/images/services/service-parts.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:08.091] Browser WARN    Image with src "/images/services/service-extra.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:08.091] Browser WARN    Image with src "/images/services/service-motel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:08.091] Browser WARN    Image with src "/images/services/service-wash.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:38:02.384] Server  LOG      ✓ Compiled in 965ms
+[00:38:06.089] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:15.261] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:00.995] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:10.505] Server  LOG      ✓ Compiled in 202ms
+[00:46:21.621] Server  LOG      ✓ Compiled in 188ms
+[00:46:28.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:12.483] Server  LOG      ✓ Compiled in 181ms
+[00:56:04.380] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:23.477] Server  LOG      ✓ Compiled in 143ms
+[00:57:54.648] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:02.422] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:48.203] Browser WARN    Image with src "/images/promotions/cleaning.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:59:48.204] Browser WARN    Image with src "/images/promotions/diagnostic.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:56.314] Server  LOG      ✓ Compiled in 156ms
+[01:03:01.201] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:19.169] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

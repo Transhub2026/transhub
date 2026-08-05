@@ -9,8 +9,9 @@ type Post = {
   id: string;
   type: PostType;
   title: string;
-  date: string; // можно "2025-01-10" или "Актуально"
+  date: string;
   excerpt: string;
+  image: string;
 };
 
 const COMPANY_NOTICE = {
@@ -24,28 +25,13 @@ const COMPANY_NOTICE = {
 
 const posts: Post[] = [
   {
-    id: "promo-1",
-    type: "promo",
-    title: "Акция: бесплатная диагностика при прохождении ТО",
+    id: "diagnostics",
+    type: "news",
+    title: "Автоэлектрик и компьютерная диагностика грузовых автомобилей",
     date: "Актуально",
     excerpt:
-      "Условия и сроки уточняйте по телефону или через страницу «Контакты».",
-  },
-  {
-    id: "news-1",
-    type: "news",
-    title: "Расширяем направления диагностики и обслуживания",
-    date: "Новости",
-    excerpt:
-      "Следите за обновлениями — публикуем новые возможности сервиса и изменения в работе подразделений.",
-  },
-  {
-    id: "news-2",
-    type: "news",
-    title: "Новый формат публикаций: полезные заметки и рекомендации",
-    date: "Новости",
-    excerpt:
-      "Будем регулярно публиковать материалы по обслуживанию, сезонным работам и подготовке транспорта.",
+      "В ТрансХаб доступно новое направление обслуживания. Проводим компьютерную диагностику электронных систем, поиск неисправностей и работы автоэлектрика грузового транспорта.",
+    image: "/images/news/diagnostic.jpg",
   },
 ];
 
@@ -115,42 +101,7 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* Вкладки */}
-      <section className="border-b border-slate-900">
-        <div className="max-w-6xl mx-auto px-4 py-6">
-          <div className="flex items-center justify-between gap-3">
-            <div className="text-sm text-slate-300">
-              Выберите раздел:
-            </div>
-
-            <div className="inline-flex rounded-full border border-slate-700 bg-slate-900/40 p-1">
-              <button
-                onClick={() => setTab("news")}
-                className={[
-                  "px-4 py-2 text-xs rounded-full transition",
-                  tab === "news"
-                    ? "bg-amber-400/15 text-amber-300 border border-amber-400/30"
-                    : "text-slate-300 hover:text-slate-50",
-                ].join(" ")}
-              >
-                Новости
-              </button>
-              <button
-                onClick={() => setTab("promo")}
-                className={[
-                  "px-4 py-2 text-xs rounded-full transition",
-                  tab === "promo"
-                    ? "bg-amber-400/15 text-amber-300 border border-amber-400/30"
-                    : "text-slate-300 hover:text-slate-50",
-                ].join(" ")}
-              >
-                Акции
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* Лента */}
       <section>
         <div className="max-w-6xl mx-auto px-4 py-10">
@@ -194,12 +145,7 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <footer className="border-t border-slate-900 py-6 text-xs text-slate-500">
-        <div className="max-w-6xl mx-auto px-4">
-          © {new Date().getFullYear()} ТрансХаб. Все права защищены.
-        </div>
-      </footer>
-    </div>
+          </div>
   );
 }
 

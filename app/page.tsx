@@ -382,12 +382,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <footer className="border-t border-slate-900 py-6 text-xs text-slate-500">
-        <div className="max-w-6xl mx-auto px-4">
-          © {new Date().getFullYear()} ТрансХаб. Все права защищены.
-        </div>
-      </footer>
-
+      
      {isVideoOpen && (
   <div className="fixed inset-0 z-50 flex items-center justify-center bg-neutral-950/90 px-4">
     <div className="relative w-full max-w-5xl overflow-hidden rounded-3xl border border-neutral-800 bg-neutral-950 shadow-2xl">

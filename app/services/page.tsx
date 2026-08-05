@@ -227,10 +227,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <footer className="border-t border-slate-900 py-6 text-xs text-slate-500">
-        <div className="max-w-6xl mx-auto px-4">© {new Date().getFullYear()} ТрансХаб. Все права защищены.</div>
-      </footer>
-    </div>
+      </div>
   );
 }
 
